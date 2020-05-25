@@ -19,13 +19,10 @@ Install it in node.js:
 ```
 npm install msexcel-builder
 ```
-
 ```javascript
 var excelbuilder = require('msexcel-builder');
 ```
-
 Then create a sample workbook with one sheet and some data.
-
 ```javascript
   // Create a new workbook file in current working-path
   var workbook = excelbuilder.createWorkbook('./', 'sample.xlsx')
@@ -70,7 +67,6 @@ Create a new workbook file.
 * `file_name` - (String) The file name of workbook.
 
 Returns a `Workbook` Object.
-
 Example: create a xlsx file saved to `C:\test.xlsx`
 
 ```javascript
@@ -88,7 +84,6 @@ Create a new worksheet with specified columns and rows
 Returns a `Sheet` object
 
 Notes: The sheet name must be unique within a same workbook.
-
 Example: Create a new sheet named 'sheet1' with 5 columns and 8 rows
 
 ```javascript
